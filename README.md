@@ -29,6 +29,9 @@ DOMAIN_NAME=localhost.example
 NGINX_HTTP_PORT=80
 NGINX_HTTPS_PORT=443
 ...
+
+You can modify other variables such as DB name, user name and password, otherwise, wordpress may run into a failure of "can't connect to mysql"
+
 ```
 
 Map `DOMAIN_NAME` to 127.0.0.1
